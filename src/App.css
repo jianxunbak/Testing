@@ -64,6 +64,7 @@ h1 {
   margin-bottom: 1rem;
   background: linear-gradient(to right, #ffffff, #94a3b8);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -72,6 +73,28 @@ p {
   line-height: 1.6;
   font-size: 1.125rem;
   margin-bottom: 2.5rem;
+}
+
+.action-buttons {
+  margin-bottom: 2.5rem;
+}
+
+.btn-primary {
+  background: var(--accent-color);
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+  filter: brightness(1.1);
 }
 
 .footer {
